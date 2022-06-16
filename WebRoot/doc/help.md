@@ -144,7 +144,7 @@
 
 官网下载地址：
 
-https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html
+<https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html>
 
 **Tomcat**：9.0 64位
 
@@ -162,7 +162,7 @@ Redis：5.0 64位
 
 官网下载地址：
 
-https://redis.io/download/
+<https://redis.io/download/>
 
 ## <h2><a name="1.2系统安装"></a>1.2 系统安装</h2>
 
@@ -239,11 +239,7 @@ immediate;”关闭oracle例程后，执行“startup”启动数据库。
 
 1）16100：平台web访问端口；
 
-2）19100：驱动程序主站端口，用于设备连接；
-
-3）18100：AC程序计算端口，用于设备数据计算分析；
-
-4）6379：redis端口
+2）19100：驱动程序主站端口，用于设备连接。
 
 ## <h2><a name="1.3系统配置"></a>1.3 系统配置</h2>
 
@@ -282,12 +278,6 @@ password：邮箱授权码或独立密码；
 smtpHost：邮箱服务器地址，不同服务器地址不同；
 
 smtpPort：邮箱SMTP端口，以实际为准。
-
-6、数据保存模式
-
-![](../images/helpdoc/PNG/9eb81231a354c680b37b18b46dbb6db1.png)
-
-采集数据保存到数据库的模式：0-以地址为准(相同地址的项对应数据库同一字段)；1-以名称为准(相同名称的项对应数据库同一字段，推荐使用)，一般只需设置一次。
 
 6、是否显示图标
 
